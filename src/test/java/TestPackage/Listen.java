@@ -22,7 +22,7 @@ public class Listen extends Baseclass implements ITestListener{
 		
 	}
 
-/*	@Override
+	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
@@ -38,7 +38,7 @@ public class Listen extends Baseclass implements ITestListener{
 		}
 		
 		extent.flush();
-	} */
+	} 
 
 	@Override
 	public void onTestFailure(ITestResult result) {

@@ -20,14 +20,16 @@ import com.google.gson.JsonParser;
 public class orangeHRM extends Baseclass{
 
 
-	@Test
+	//@Test
 	public void OrangeCRMTest() throws Exception {
 		
 		w=openURL("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
 	}
 	
-	//@Test(dataProvider = "id")
+	
+	//testinng my nbew toketn
+	@Test(dataProvider = "id")
 	public void test(String user,String pass) {
 		
 		w=openURL("https://www.saucedemo.com/");
