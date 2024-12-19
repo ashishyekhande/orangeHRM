@@ -30,6 +30,7 @@ import com.google.common.io.Files;
 public class Baseclass {
 	
 	public WebDriver w;
+	int n;
 	
 	@BeforeMethod
 	public void initalize() throws Exception
@@ -112,7 +113,7 @@ public class Baseclass {
 	
 	
 	
-	@AfterTest
+	//@AfterTest
 	public void terminate() {
 		w.quit();
 		

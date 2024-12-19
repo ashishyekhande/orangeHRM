@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPackage.orangeHRM">
+      <class name="TestPackage.Fileupload">
         <methods>
-          <include name="testJson" invocation-numbers="0 1 2 3 4"/>
-          <include name="OrangeCRMTest"/>
-          <include name="test" invocation-numbers="0 1"/>
+          <include name="file"/>
+          <include name="terminate"/>
+          <include name="initalize"/>
         </methods>
-      </class> <!-- TestPackage.orangeHRM -->
+      </class> <!-- TestPackage.Fileupload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
